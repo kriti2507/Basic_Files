@@ -1,3 +1,9 @@
+#To rename multiple files in different folders
+"""
+Set initial path, get folders, set path to a particular folder and then get files and rename
+"""
+
+
 import os
 path = "/home/kriti/Downloads/stanford-dogs-dataset/Annotation"
 folders = os.listdir(path)
